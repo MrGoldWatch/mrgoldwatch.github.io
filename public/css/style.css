@@ -185,7 +185,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	height: auto;
 	padding: 0;
-	background: url(../img/IMG_6298.jpg) center center no-repeat;
+	background: url(../img/background/IMG_9018.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -415,6 +415,7 @@ header .intro-text {
 /* Team Section */
 #team {
 	padding: 100px 0;
+	background: #f6f6f6;
 }
 #team h4 {
 	margin: 5px 0;
