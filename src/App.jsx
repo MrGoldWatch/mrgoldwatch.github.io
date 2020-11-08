@@ -31,8 +31,8 @@ export class App extends Component {
         <Features data={this.state.landingPageData.Features} />
         {/* <Services data={this.state.landingPageData.Services} /> */}
         <Gallery />
-        {/* <Testimonials data={this.state.landingPageData.Testimonials} /> */}
-        <Team data={this.state.landingPageData.Team} />
+        {/* <Testimonials data={this.state.landingPageData.Testimonials} /> 
+        <Team data={this.state.landingPageData.Team} /> */}
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )

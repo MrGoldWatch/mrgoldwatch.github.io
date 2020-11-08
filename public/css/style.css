@@ -14,6 +14,7 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	overflow-x: hidden;
 }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
@@ -77,12 +78,12 @@ hr {
 }
 #menu.navbar-default {
 	/* background-color: #f15d93; */
-	background-color: rgb(48, 207, 221, .9);
+	background-color: rgb(48, 207, 221, .55);
 	/* background-color: rgb(241, 93, 147, .5); */
 	/* background-color: rgba(228, 172, 4, 0.644); */
 	/* border-color: rgb(231, 231, 231); */
-	border-color: rgb(241, 93, 147);
-	/* border-color: rgb(48, 207, 221); */
+	/* border-color: rgb(241, 93, 147); */
+	border-color: rgb(48, 207, 221);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
@@ -127,7 +128,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #f081a9 0%, #f15d93 100%);
+	background: linear-gradient(to right, #57d0dd85 0%, #30cfddf1 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -145,13 +146,14 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #57cfdd 0%, #30cfdd91 100%) !important;
 	/* background: linear-gradient(to right, #f081a9 0%, #f15d93 100%) !important; */
 	content: "" !important;
 	transition: width 0.2s !important;
 }
 .navbar-toggle {
 	border-radius: 0;
+	margin-top: 2px !important;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
@@ -174,7 +176,7 @@ hr {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-.section-title h2::after {
+/*.section-title h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -183,7 +185,7 @@ hr {
 	bottom: 0;
 	margin-left: -30px;
 	left: 50%;
-}
+}*/
 .section-title p {
 	font-size: 18px;
 }
@@ -191,9 +193,10 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	/* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
-	background-image: linear-gradient(to right, #dfb846 0%, #e4ad04 100%);
+	/* background-color: #5ca9fb; */
+	background-color: rgb(48, 207, 221, .55);
+	background-image: linear-gradient(to right, #1395a3 0%, #30cfdd91 100%);
+	/* background-image: linear-gradient(to right, #dfb846 0%, #e4ad04 100%); */
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -206,7 +209,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	background-color: rgb(48, 207, 221, 1);
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -227,11 +230,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	/* background: url(../img/background/IMG_6298.jpg) center center no-repeat; */
 	background: url(../img/background/IMG_9018.jpg) center center no-repeat;
 	/* background: url(../img/background/IMG_9178.jpg) center center no-repeat; */
+	/* margin-top: -25px; */
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	/* overflow: hidden; */
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
@@ -242,7 +247,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 82px;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-top: 0;
+	/* margin-top: 0; */
+	margin-top: -45px;
 	margin-bottom: 10px;
 }
 .intro h1 span {
@@ -279,10 +285,22 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+.features-logos{
+	height: 120px;
+}
+
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 40px 0;
+	color: #333 !important;
+	/* background-color: rgb(255, 255, 255) !important; */
+	/* background: white !important; */
 }
+
+.sbog-banner {
+	/* margin-top: 35px; */
+}
+
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
@@ -292,7 +310,7 @@ header .intro-text {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-#about h2::after {
+/*#about h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -300,7 +318,7 @@ header .intro-text {
 	width: 60px;
 	bottom: 0;
 	left: 0;
-}
+}*/
 #about .about-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
@@ -317,14 +335,97 @@ header .intro-text {
 }
 #about img {
 	width: 520px;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
 #about p {
 	line-height: 24px;
-	margin: 30px 0;
+	margin: 10px 0;
+	text-align: left;
+}
+
+.text-c {
+	text-align: center !important;
+}
+
+.aboutus {
+	margin-bottom: -35px !important;
+	margin-top: -35px !important;
+}
+
+.first-p {
+	margin-top: 0px !important;
+	
+}
+.hrText {
+	background: unset !important;
+	color: #3C4858;
+	text-transform: uppercase;
+    /* margin-top: -40px; */
+    font-family: 'Raleway', "Roboto Slab", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1.2;
+	min-height: 32px;
+	width: 80%;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+	height: 1.5em;
+	margin: -20px auto;
+    /* opacity: .5; */
+}
+
+.p-thick {
+	font-weight: bold;
+}
+
+.hrText:before {
+    content: ''; 
+    /* // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar */
+    background: linear-gradient(to right, transparent, #3C4858, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hrText:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: #333;
+    padding: 0 .5em;
+    /* // this is really the only tricky part, you need to specify the background color of the container element... */
+    line-height: 1.5em; 
+    /* color: #3C4858; */
+    background-color: #FFFFFF;
+}
+
+.amf {
+	background: transparent !important;
+	background-color: transparent !important;
+	box-shadow: unset !important;
+	height: 220px !important;
+	width: auto !important;
+	margin-top: -15px;
+	margin-bottom: -10px;
+}
+
+.thanky2 {
+	margin-top: 45px !important;
+	margin-bottom: 5px !important;
+	text-align: center !important;
+	font-size: 16px !important;
+	border: 1px solid #333;
+	padding: 10px;
 }
 /* Services Section */
 #services {
@@ -332,6 +433,11 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: #fff;
 }
+
+.community {
+	margin-top: -55px !important;
+}
+
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
@@ -387,7 +493,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	background: linear-gradient(to right, #1395a3 0%, #30cfdd91 100%);
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -475,7 +581,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #1395a3 0%, #30cfdd91 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -490,7 +596,7 @@ header .intro-text {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-#contact .section-title h2::after {
+/* #contact .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: rgba(255,255,255,.3);
@@ -498,7 +604,7 @@ header .intro-text {
 	width: 60px;
 	bottom: 0;
 	left: 30px;
-}
+} */
 #contact h3 {
 	color: #fff;
 	margin-top: 80px;
@@ -598,6 +704,7 @@ color: #777;
 	color: #608dfd;
 	background: #fff;
 }
+
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
@@ -614,8 +721,31 @@ color: #777;
 	border-bottom: 2px solid #608dfd;
 }
 
+
+/* Media Queries */
+
 @media (max-width: 768px) {
-#about img {
-	margin: 50px 0;
+	#about img {
+		margin: 50px 0;
+	}
+	
 }
+
+@media (max-width: 560px ) {
+	#menu a.navbar-brand p {
+		font-size: 18px !important;
+	}
+	.intro h1 {
+		font-size: 72px !important;
+		margin-top: -60px;
+	}
 }
+
+@media (max-width: 992px) and (min-width: 561px) {
+	#menu a.navbar-brand p {
+		font-size: 20px !important;
+	}
+}
+
+
+

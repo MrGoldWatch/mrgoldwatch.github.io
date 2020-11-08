@@ -6,7 +6,12 @@
 
     },
     "About": {
-        "paragraph": "South Bay Originals Futsal is a group of futsal-lovers originating in the South Bay of Los Angeles, CA that have united to facilitate joy and community through the game of futsal. We felt the South Bay lacked a high-quality futsal organization designed for people over profit. We aim to provide a unique and affordable alternative to existing local futsal and soccer options for all ages and skill levels. Our services include private training, public pick-up/retas, and a competitive platform for high level players in the South Bay. Our programs are designed to develop futsal skills and encourage camaraderie and fellowship amongst members and visitors alike. We will also partner with and promote local business partners to support the greater good of the South Bay. Welcome to SBOG Futsal. We'll see you soon!",
+        "paragraph": "South Bay Originals Futsal is a group of futsal-lovers originating in the South Bay of Los Angeles, CA that have united to facilitate joy and community through the game of futsal. We felt the South Bay lacked a high-quality futsal organization designed for people over profit.",
+        "paragraph1": "We aim to provide a unique and affordable alternative to existing local futsal and soccer options for all ages and skill levels. Our services include private training, public pick-up/retas, and a competitive platform for high level players in the South Bay. Our programs are designed to develop futsal skills and encourage camaraderie and fellowship amongst members and visitors alike. We will also partner with and promote local business partners to support the greater good of the South Bay. ",
+        "paragraph12": "Welcome to SBOG Futsal. We hope to see you soon!",
+        "paragraph2": "We are proud to announce that the South Bay Originals Futsal Club will represent Los Angeles in the American Futsal League for the 2021 season. We are honored to receive this invitation to be LA's first professional futsal team.",
+        "paragraph3": "Follow us on Instragram @sbogfutsal for more info about open tryouts.",
+        "paragraph4": "We at South Bay Originals Futsal would like to thank you for all the incredible support, We would not have been able to do this without you.",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -105,31 +110,31 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "address": "Southbay Los Angeles",
+        "phone": "+1 (310) 999-9866",
+        "email": "Sbogfutsal@gmail.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
+            "icon": "pickup",
+            "title": "Pick Up",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
+            "icon": "trainings",
+            "title": "Trainings",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
+            "icon": "volunteer",
+            "title": "Volunteer Work",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
+            "icon": "club",
+            "title": "Futsal Club",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
     ]
