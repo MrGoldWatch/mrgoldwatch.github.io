@@ -16,7 +16,7 @@ export class Header extends Component {
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>
-                  <div className="col-md-12">
+                  <div className="col-md-12 intro-social">
                     <div className="social">
                       <ul>
                         <li>

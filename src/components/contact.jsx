@@ -87,7 +87,7 @@ export class Contact extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 intro-social">
               <div className="row">
                 <div className="social">
                   <ul>

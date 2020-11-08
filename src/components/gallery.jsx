@@ -36,7 +36,7 @@ export class Gallery extends Component {
             <hr className="text-center hrText aboutus" data-content=""></hr>
           </div>
           <div className="row">
-            <div className="portfolio-items">
+            <div className="portfolio-items portfolio-item1">
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
                   <div className="hover-bg">
@@ -55,7 +55,7 @@ export class Gallery extends Component {
                       </div>
                       <img
                         src="img/portfolio/001-small.jpg"
-                        className="img-responsive"
+                        className="img-responsive gallery-image"
                         alt="Project Title"
                       />{" "}
                     </span>{" "}
@@ -63,7 +63,7 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="portfolio-item2 portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <span
@@ -87,7 +87,7 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="portfolio-item3 portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <span
@@ -111,7 +111,7 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="portfolio-item4 portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <span
@@ -135,7 +135,7 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="portfolio-item5 portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <span
@@ -159,7 +159,7 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="portfolio-item6 portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <span
@@ -187,9 +187,10 @@ export class Gallery extends Component {
           <Modal
             visible={this.state.visible}
             width="1000"
-            height="667"
+            // height="auto"
             effect="fadeInUp"
             onClickAway={() => this.closeModal()}
+            className="modal-size"
           >
             <div>
               <img

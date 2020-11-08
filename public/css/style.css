@@ -516,6 +516,26 @@ header .social ul li {
 	position: relative;
 	margin: 0;
 }
+
+.portfolio-items1:hover  {
+	transform: scale(1.5);
+}
+.portfolio-items2:hover  {
+	transform: scale(1.5);
+}
+.portfolio-items3:hover  {
+	transform: scale(1.5);
+}
+.portfolio-items4:hover  {
+	transform: scale(1.5);
+}
+.portfolio-items5:hover  {
+	transform: scale(1.5);
+}
+.portfolio-items6:hover  {
+	transform: scale(1.5);
+}
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -544,6 +564,7 @@ header .social ul li {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
+	
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
@@ -760,7 +781,41 @@ color: #777;
 	
 }
 
-@media (max-width: 560px ) {
+@media (max-width: 378px ) {
+	Modal {
+		/* height: auto; */
+		margin-top: -25px;
+	}
+
+	#menu a.navbar-brand img{
+		width: 56px;
+		margin-top: -10px;
+		
+	}
+	header .social i.fa {
+		color: #30cfdd;
+		background: #fff;
+	}
+	header .social i.fa {
+		font-size: 20px;
+		padding: 8px 0;
+		width: 40px;
+		height: 40px;
+
+	}
+	.intro-social {
+		padding: 0 !important;
+	}
+	#menu a.navbar-brand p {
+		font-size: 12px !important;
+	}
+	.intro h1 {
+		font-size: 52px !important;
+		margin-top: -60px;
+	}
+}
+
+@media (max-width: 560px ) and (min-width: 379px) {
 	#menu a.navbar-brand p {
 		font-size: 18px !important;
 	}
