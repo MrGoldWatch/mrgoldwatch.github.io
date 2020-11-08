@@ -1,6 +1,28 @@
 import React, { Component } from "react";
+import Modal from "react-awesome-modal";
 
 export class Gallery extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible: false,
+      source: "",
+    };
+  }
+
+  openModal(source) {
+    this.setState({
+      visible: true,
+      source: source,
+    });
+  }
+
+  closeModal() {
+    this.setState({
+      visible: false,
+    });
+  }
+
   render() {
     return (
       <div id="portfolio" className="text-center">
@@ -19,20 +41,24 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/001-large.jpg"
+                    <span
+                      type="button"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
+                      value="Open"
+                      onClick={() =>
+                        this.openModal("img/portfolio/001-large.jpg")
+                      }
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        {/*<h4>Lorem Ipsum</h4>*/}
                       </div>
                       <img
                         src="img/portfolio/001-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+                    </span>{" "}
                   </div>
                 </div>
               </div>
@@ -40,20 +66,23 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/002-large.jpg"
+                    <span
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
+                      value="Open"
+                      onClick={() =>
+                        this.openModal("img/portfolio/002-large.jpg")
+                      }
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        {/*<h4>Lorem Ipsum</h4>*/}
                       </div>
                       <img
                         src="img/portfolio/002-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+                    </span>{" "}
                   </div>
                 </div>
               </div>
@@ -61,20 +90,23 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/003-large.jpg"
+                    <span
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
+                      value="Open"
+                      onClick={() =>
+                        this.openModal("img/portfolio/003-large.jpg")
+                      }
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        {/*<h4>Lorem Ipsum</h4>*/}
                       </div>
                       <img
                         src="img/portfolio/003-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+                    </span>{" "}
                   </div>
                 </div>
               </div>
@@ -82,20 +114,23 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/008-large.jpg"
+                    <span
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
+                      value="Open"
+                      onClick={() =>
+                        this.openModal("img/portfolio/010-large.jpg")
+                      }
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        {/*<h4>Lorem Ipsum</h4>*/}
                       </div>
                       <img
-                        src="img/portfolio/008-small.jpg"
+                        src="img/portfolio/010-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+                    </span>{" "}
                   </div>
                 </div>
               </div>
@@ -103,20 +138,23 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/007-large.jpg"
+                    <span
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
+                      value="Open"
+                      onClick={() =>
+                        this.openModal("img/portfolio/007-large.jpg")
+                      }
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        {/*<h4>Lorem Ipsum</h4>*/}
                       </div>
                       <img
                         src="img/portfolio/007-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+                    </span>{" "}
                   </div>
                 </div>
               </div>
@@ -124,88 +162,44 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/006-large.jpg"
+                    <span
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
+                      value="Open"
+                      onClick={() =>
+                        this.openModal("img/portfolio/006-large.jpg")
+                      }
                     >
                       <div className="hover-text">
-                        <h4>Dolor Sit</h4>
+                        {/*<h4>Lorem Ipsum</h4>*/}
                       </div>
                       <img
                         src="img/portfolio/006-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+                    </span>{" "}
                   </div>
                 </div>
               </div>
-              {/*<div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/07-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Dolor Sit</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/07-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/08-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/08-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/09-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/09-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
+          <Modal
+            visible={this.state.visible}
+            width="1000"
+            height="667"
+            effect="fadeInUp"
+            onClickAway={() => this.closeModal()}
+          >
+            <div>
+              <img
+                src={this.state.source}
+                className="img-responsive"
+                alt="Project Title"
+                onClick={() => this.closeModal()}
+              />{" "}
+            </div>
+          </Modal>
         </div>
       </div>
     );

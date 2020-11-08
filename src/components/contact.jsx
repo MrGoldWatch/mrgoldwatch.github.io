@@ -15,7 +15,7 @@ export class Contact extends Component {
                     will get back to you as soon as possible.
                   </p>
                 </div>
-                <form name="sentMessage" id="contactForm" noValidate>
+                <form action="mailto:youraddr@domain.tld" method="GET" name="sentMessage" id="contactForm" noValidate >
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -91,23 +91,59 @@ export class Contact extends Component {
               <div className="row">
                 <div className="social">
                   <ul>
-                    <li>
-                      <a
-                        href={this.props.data ? this.props.data.facebook : "/"}
-                      >
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
-                        <i className="fa fa-youtube"></i>
-                      </a>
-                    </li>
+                  <li>
+                  <a
+                    href={
+                      this.props.data ? this.props.data.instagram : "/"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={
+                      this.props.data ? this.props.data.facebook : "/"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={
+                      this.props.data ? this.props.data.twitter : "/"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-twitter"></i>
+                  </a>
+                </li>
+                {/*<li>
+                  <a
+                    href={
+                      this.props.data ? this.props.data.youtube : "/"
+                    }
+                  >
+                    <i className="fa fa-youtube"></i>
+                  </a>
+                  </li>*/}
+                <li>
+                  <a
+                    href={
+                      this.props.data ? this.props.data.twitch : "/"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-twitch"></i>
+                  </a>
+                </li>
                   </ul>
                 </div>
               </div>
@@ -117,7 +153,9 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Hosein Khosravani. Template by{" "}
+              &copy; 2020 <a href="http://www.hk.codes" rel="nofollow">
+              Hosein Khosravani
+            </a>. Template by{" "}
               <a href="http://www.templatewire.com" rel="nofollow">
                 TemplateWire
               </a>

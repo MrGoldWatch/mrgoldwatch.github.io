@@ -32,7 +32,7 @@ export class features extends Component {
                     {/*<i className={d.icon}></i>*/}
                     
                     <img src={training} alt='training' className="features-logos"></img>
-                    <h3>Trainings</h3>
+                    <h3>Training</h3>
                   </div>
                   <div   className="col-xs-6 col-md-3">
                     {" "}

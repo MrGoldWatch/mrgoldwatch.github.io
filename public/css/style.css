@@ -78,7 +78,7 @@ hr {
 }
 #menu.navbar-default {
 	/* background-color: #f15d93; */
-	background-color: rgb(48, 207, 221, .55);
+	background-color: rgb(48, 207, 221, .75);
 	/* background-color: rgb(241, 93, 147, .5); */
 	/* background-color: rgba(228, 172, 4, 0.644); */
 	/* border-color: rgb(231, 231, 231); */
@@ -228,7 +228,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: auto;
 	padding: 0;
 	/* background: url(../img/background/IMG_6298.jpg) center center no-repeat; */
-	background: url(../img/background/IMG_9018.jpg) center center no-repeat;
+	/* background: url(../img/background/IMG_9018.jpg) center center no-repeat; */
+	background: url(../img/background/img_9018_small.jpg) center center no-repeat;
 	/* background: url(../img/background/IMG_9178.jpg) center center no-repeat; */
 	/* margin-top: -25px; */
 	background-color: #e5e5e5;
@@ -239,7 +240,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	/* overflow: hidden; */
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.5);
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
@@ -261,12 +262,39 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 300;
 	line-height: 30px;
 	margin: 0 auto;
-	margin-bottom: 60px;
+	/* margin-bottom: 60px; */
 }
 header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
 	text-align: center;
+}
+header .social i.fa {
+	font-size: 22px;
+	width: 48px;
+	height: 48px;
+	padding: 12px 0;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+header .social i.fa:hover {
+	color: #30cfdd;
+	background: #fff;
+}
+
+header .social {
+	border-top: 1px solid #30cfdd;
+	/* rgba(255,255,255,0.15); */
+    padding: 25px 0;
+    /* padding-top: 10px; */
+    text-align: center;
+}
+
+header .social ul li {
+    display: inline-block;
+    margin: 0 20px;
 }
 /* Features Section */
 #features {
@@ -625,7 +653,7 @@ header .intro-text {
 	border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-	color: #1f386e;
+	color: #30cfdd;
 	background: #fff;
 }
 label {
@@ -701,24 +729,25 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
+	color: #30cfdd;
 	background: #fff;
 }
 
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
-	padding: 30px 0;
+	padding: 10px 0;
 }
 #footer p {
 	color: #888;
-	font-size: 14px;
+	font-size: 8px;
+	margin-bottom: 0 !important;
 }
 #footer a {
-	color: #608dfd;
+	color: #30cfdd;
 }
 #footer a:hover {
-	border-bottom: 2px solid #608dfd;
+	border-bottom: 2px solid #30cfdd;
 }
 
 

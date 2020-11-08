@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import amf from "../icons/AMF.png";
-import amf2 from "../icons/AMF2.png";
-import amf3 from "../icons/amft.gif";
-import football from "../icons/football.png";
+
 
 export class about extends Component {
   render() {
@@ -17,7 +15,7 @@ export class about extends Component {
             <div className="col-xs-12 col-md-6">
               {" "}
               <img
-                src="img/about.jpg"
+                src="img/about_small.jpg"
                 className="img-responsive sbog-banner"
                 alt=""
               />{" "}
