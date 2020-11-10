@@ -15,9 +15,9 @@ export class Navigation extends Component {
             >
               {" "}
               <span className="sr-only"></span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
+              <span className="icon-bar dark-line"></span>{" "}
+              <span className="icon-bar dark-line"></span>{" "}
+              <span className="icon-bar dark-line"></span>{" "}
             </button>
       
             <a className="navbar-brand page-scroll navbar-logo-section" href="#page-top">
