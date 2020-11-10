@@ -153,10 +153,10 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 <a href="http://www.hk.codes" rel="nofollow">
+              &copy; 2020 <a href="https://www.hk.codes" rel="nofollow">
               Hosein Khosravani
             </a>. Template by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
+              <a href="https://www.templatewire.com" rel="nofollow">
                 TemplateWire
               </a>
             </p>
