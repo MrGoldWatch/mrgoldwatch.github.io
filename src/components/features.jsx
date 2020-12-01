@@ -3,7 +3,7 @@ import pickup from '../icons/pickup.png';
 import training from '../icons/training.png';
 import volunteer from '../icons/volunteer.png';
 import club from '../icons/club.png';
-import football from '../icons/football.png';
+// import football from '../icons/football.png';
 // import classes from "*.module.css";
 
 export class features extends Component {
@@ -26,6 +26,7 @@ export class features extends Component {
                     
                     <img src={pickup} alt='pickup' className="features-logos"></img>
                     <h3>Pickup</h3>
+                    <p>Public Meet-Up Play for All Skill Levels.</p>
                   </div>
                   <div   className="col-xs-6 col-md-3">
                     {" "}
@@ -33,13 +34,7 @@ export class features extends Component {
                     
                     <img src={training} alt='training' className="features-logos"></img>
                     <h3>Training</h3>
-                  </div>
-                  <div   className="col-xs-6 col-md-3">
-                    {" "}
-                    {/*<i className={d.icon}></i>*/}
-                    
-                    <img src={volunteer} alt='volunteer' className="features-logos"></img>
-                    <h3>Volunteer</h3>
+                    <p>Private and Group Training for All Ages and Skill Levels.</p>
                   </div>
                   <div   className="col-xs-6 col-md-3">
                     {" "}
@@ -47,6 +42,15 @@ export class features extends Component {
                     
                     <img src={club} alt='club' className="features-logos"></img>
                     <h3>Futsal Club</h3>
+                    <p>American Futsal League Pro Squad.</p>
+                  </div>
+                  <div   className="col-xs-6 col-md-3">
+                    {" "}
+                    {/*<i className={d.icon}></i>*/}
+                    
+                    <img src={volunteer} alt='volunteer' className="features-logos"></img>
+                    <h3>Get Involved</h3>
+                    <p>Get Involved with SBOG Futsal.</p>
                   </div>
           </div>
         </div>
