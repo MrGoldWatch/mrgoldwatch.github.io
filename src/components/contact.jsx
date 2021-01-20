@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from './footer';
 
 export class Contact extends Component {
   render() {
@@ -150,18 +151,11 @@ export class Contact extends Component {
             </div>
           </div>
         </div>
-        <div id="footer">
-          <div className="container text-center">
-            <p>
-              &copy; 2020 <a href="https://www.hk.codes" rel="nofollow">
-              Hosein Khosravani
-            </a>. Template by{" "}
-              <a href="https://www.templatewire.com" rel="nofollow">
-                TemplateWire
-              </a>
-            </p>
-          </div>
-        </div>
+        <Footer>Template by{" "}
+            <a href="https://www.templatewire.com" rel="nofollow">
+              TemplateWire
+            </a>
+          </Footer>
       </div>
     );
   }

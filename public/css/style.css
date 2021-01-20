@@ -775,6 +775,45 @@ color: #777;
 	border-bottom: 2px solid #30cfdd;
 }
 
+/* Tournament - 012421 */
+#tournament-page {
+	background-color: rgba(0,0,0,.05);
+}
+
+.tournament-header {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.dm-us {
+	text-align: center;
+	margin-left: 40px !important;
+	margin-top: 45px;
+	padding: 15px;
+	border: 2px solid rgba(250,186,78,1);
+	/* background-color: #57cfdd; */
+}
+
+.image-row {
+	margin-top: 35px;
+	margin-left: -40px;
+}
+
+.tournament-details {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.t-home-link {
+	margin-top: 35px;
+}
+
+.main-page-btn {
+	color: rgba(88, 57, 0, 1);
+	background-color: rgba(250,186,78,1);
+	border: 2px solid  rgba(250,186,78,1);
+	font-weight: 600;
+}
 
 /* Media Queries */
 

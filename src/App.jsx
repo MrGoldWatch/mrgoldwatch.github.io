@@ -19,6 +19,7 @@ export class App extends Component {
   }
 
   componentDidMount() {
+    console.log("This is a Test");
     this.getlandingPageData();
   }
 
