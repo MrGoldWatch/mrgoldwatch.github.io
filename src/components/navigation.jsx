@@ -19,10 +19,12 @@ export class Navigation extends Component {
               <span className="icon-bar dark-line"></span>{" "}
               <span className="icon-bar dark-line"></span>{" "}
             </button>
-      
-            <a className="navbar-brand page-scroll navbar-logo-section" href="#page-top">
-            <img src={logo} alt="Logo" className="navbar-logo" /> 
-            <p className="navbar-logo-text">South Bay Originals Futsal</p>
+            <a
+              className="navbar-brand page-scroll navbar-logo-section"
+              href="#page-top"
+            >
+              <img src={logo} alt="Logo" className="navbar-logo" />
+              <p className="navbar-logo-text">South Bay Originals Futsal</p>
             </a>{" "}
           </div>
 
@@ -31,7 +33,6 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-
               <li>
                 <a href="#about" className="page-scroll navbar-links">
                   About
@@ -66,6 +67,12 @@ export class Navigation extends Component {
               <li>
                 <a href="#contact" className="page-scroll">
                   Contact
+                </a>
+              </li>
+
+              <li>
+                <a href="/pitch" className="page-scroll">
+                  Pitch
                 </a>
               </li>
             </ul>

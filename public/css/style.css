@@ -71,7 +71,9 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
+
 /* Navigation */
+
 #menu {
 	padding: 15px 15px 0 15px;
 	transition: all 0.8s;
@@ -827,6 +829,12 @@ color: #777;
 
 .page {
 	text-align: center !important;
+}
+
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 80% !important;
+    height: 100% !important;
 }
 
 /* Media Queries */

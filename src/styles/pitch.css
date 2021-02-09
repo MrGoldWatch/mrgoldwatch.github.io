@@ -1,0 +1,53 @@
+
+/* Pitch Page */
+
+.pitch {
+	text-align: center !important;
+}
+
+.doc {
+	text-align: center;
+	margin-left: auto;
+    display: unset !important;
+    
+    /* margin-top: 20px !important; */
+}
+
+.pitchdoc {
+    max-height: fit-content;
+    margin-top: 10px !important;
+}
+
+ .p-home-link {
+    margin-right: 10px;
+    margin-left: -45px;
+}
+
+.reset-button {
+    /* margin-right: 10px; */
+    margin-left: 10px;
+}
+
+.pageinfo {
+	padding-top: 10px;
+}
+
+.pagec {
+    margin-top: 5px;
+}
+
+@media (min-width: 900px) {
+    .react-pdf__Page__canvas {
+        margin: 0 auto;
+        width: 95% !important;
+        height: 90% !important;
+    }
+}
+
+@media (min-width: 811px) and (max-width: 899px) {
+    .react-pdf__Page__canvas {
+        margin: 0 auto;
+        width: 90% !important;
+        height: 85% !important;
+    }
+}
