@@ -302,6 +302,9 @@ header .social ul li {
     display: inline-block;
     margin: 0 20px;
 }
+
+
+
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -839,9 +842,13 @@ color: #777;
 
 /* Media Queries */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#about img {
 		margin: 50px 0;
+	}
+
+	.pich-btn {
+		margin-top: 10px;
 	}
 	
 }

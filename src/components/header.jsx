@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Row } from 'react-bootstrap';
 
 export class Header extends Component {
   render() {
@@ -75,12 +76,30 @@ export class Header extends Component {
                       </ul>
                     </div>
                   </div>
+                  <Row>
+                  
+                  <div className="col-sm-4 col-sm-offset-2">
                   <a
                     href="#about"
                     className="btn btn-custom btn-lg page-scroll"
                   >
                     Learn More
                   </a>{" "}
+                  </div>
+                  
+                  
+                  
+                  <div className="col-sm-4 pich-btn">
+                  <a
+                    href="/pitch"
+                    className="btn btn-custom btn-lg page-scroll"
+                  >
+                    SBOG Pitch
+                  </a>{" "}
+                  </div>
+                  
+                  
+                  </Row>
                 </div>
               </div>
             </div>
