@@ -815,6 +815,20 @@ color: #777;
 	font-weight: 600;
 }
 
+/* Pitch Page */
+#pitch {
+	text-align: center !important;
+	/* co */
+}
+
+#pitch-doc {
+	text-align: center;
+}
+
+.page {
+	text-align: center !important;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
