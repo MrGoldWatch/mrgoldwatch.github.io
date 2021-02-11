@@ -8,7 +8,7 @@ import club from "../icons/club.png";
 
 export class features extends Component {
   render() {
-    
+
 
     // let children;
     // let icon;
@@ -49,13 +49,15 @@ export class features extends Component {
             <div className="col-xs-6 col-md-3">
               {" "}
               {/*<i className={d.icon}></i>*/}
-              <img
-                src={volunteer}
-                alt="volunteer"
-                className="features-logos"
-              ></img>
-              <h3>Get Involved</h3>
-              <p>Get Involved with SBOG Futsal.</p>
+              <a href="/pitch">
+                <img
+                  src={volunteer}
+                  alt="volunteer"
+                  className="features-logos"
+                ></img>
+                <h3>Get Involved</h3>
+                <p>Get Involved with SBOG Futsal.</p>
+              </a>
             </div>
           </div>
         </div>
