@@ -512,6 +512,12 @@ header .social ul li {
 #services .service-desc {
 	margin-bottom: 40px;
 }
+
+.features-get-involved-div a {
+	color: rgb(48, 207, 221, .75);
+}
+
+
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
@@ -590,7 +596,7 @@ header .social ul li {
 }
 .testimonial {
 	position: relative;
-	padding: 20px;
+	/* padding: 20px; */
 }
 .testimonial-image {
 	float: left;
@@ -617,6 +623,22 @@ header .social ul li {
 	font-weight: 600;
 	color: #666;
 }
+
+.youth {
+	margin-top: 30px;
+}
+
+.testy-test {
+	width: 1800px !important;
+	margin-left: -350 !important;
+	margin-right: auto !important;
+}
+
+.testi-bkg {
+	/* background-color: rgb(228, 228, 228); */
+	/* margin-right: 5px; */
+}
+
 /* Team Section */
 #team {
 	padding: 100px 0;
@@ -842,6 +864,16 @@ color: #777;
 
 /* Media Queries */
 
+@media (max-width: 990px) {
+
+	.testi2 {
+		margin-top: 30px;
+	}
+	.testi3 {
+		margin-top: 30px;
+	}
+}
+
 @media (max-width: 767px) {
 	#about img {
 		margin: 50px 0;
@@ -850,6 +882,7 @@ color: #777;
 	.pich-btn {
 		margin-top: 10px;
 	}
+	
 	
 }
 

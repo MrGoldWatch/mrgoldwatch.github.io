@@ -46,7 +46,7 @@ export class features extends Component {
               <h3>Futsal Club</h3>
               <p>American Futsal League Pro Squad.</p>
             </div>
-            <div className="col-xs-6 col-md-3">
+            <div className="col-xs-6 col-md-3 features-get-involved-div">
               {" "}
               {/*<i className={d.icon}></i>*/}
               <a href="/pitch">

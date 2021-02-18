@@ -5,7 +5,7 @@ import Features from './components/features';
 import About from './components/about';
 // import Services from './components/services';
 import Gallery from './components/gallery';
-// import Testimonials from './components/testimonials';
+import Testimonials from './components/testimonials';
 // import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
@@ -32,8 +32,8 @@ export class App extends Component {
         <Features data={this.state.landingPageData.Features} />
         {/* <Services data={this.state.landingPageData.Services} /> */}
         <Gallery />
-        {/* <Testimonials data={this.state.landingPageData.Testimonials} /> 
-        <Team data={this.state.landingPageData.Team} /> */}
+         <Testimonials data={this.state.landingPageData.Testimonials} /> 
+        {/*<Team data={this.state.landingPageData.Team} /> */}
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )
