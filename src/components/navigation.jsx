@@ -58,12 +58,12 @@ export class Navigation extends Component {
                 <a href="#testimonials" className="page-scroll">
                   Testimonials
                 </a>
-              </li> 
+              </li>  */}
               <li>
-                <a href="#team" className="page-scroll">
-                  Team
+                <a href="#redbubble" className="page-scroll">
+                  Shop
                 </a>
-              </li> */}
+              </li> 
               <li>
                 <a href="#contact" className="page-scroll">
                   Contact
