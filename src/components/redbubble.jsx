@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe'
+import Iframe from 'react-iframe';
 
 class Redbubble extends Component {
   render() {

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import App from './App';
 // import Tournament from './components/tournament';
 import Pitch from './components/pitch';
-// import Test from './components/redbubble';
+import Test from './components/video';
 
 
 export class Main extends Component {
@@ -13,7 +13,7 @@ export class Main extends Component {
                 <div>
                     <Switch>
                         <Route exact path="/"><App /></Route>
-                        {/* <Route path="/dev"><Test /></Route> */}
+                        <Route path="/dev"><Test /></Route>
                         <Route path="/pitch"><Pitch/></Route>
                     </Switch>
                 </div>
