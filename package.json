@@ -12,6 +12,8 @@
     "react-bootstrap": "^1.4.3",
     "react-dom": "^16.13.1",
     "react-iframe": "^1.8.0",
+    "react-ig-feed": "^1.0.4",
+    "react-instagram-authless-feed": "github:jamesmoriarty/react-instagram-authless-feed#v2.0.0",
     "react-instagram-embed": "^2.0.0",
     "react-pdf": "^5.1.0",
     "react-player": "^2.9.0",
@@ -29,6 +31,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://localhost:3000",
   "browserslist": {
     "production": [
       ">0.2%",
