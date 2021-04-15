@@ -14,11 +14,11 @@ export class about extends Component {
           </div>
         </div>
 
-        <div className="container">
+        {/* <div className="container">
           <div className="col-md-10 col-md-offset-1">
             <iframe src="https://www.instagr.am/p/CLHvOfgJdpB/embed" width="540" height="568" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
           </div>
-        </div>
+        </div> */}
 
         <div className="container">
           <div className="row">

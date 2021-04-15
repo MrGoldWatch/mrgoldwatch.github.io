@@ -364,6 +364,10 @@ header .social ul li {
 	height: 120px;
 }
 
+.meet-the-team{
+	font-size: 15px !important;
+}
+
 /* About Section */
 
 #about {
@@ -927,6 +931,7 @@ label {
 
 .tournament-header {
 	text-align: center;
+	align-items: center;
 	margin-top: 35px;
 }
 
