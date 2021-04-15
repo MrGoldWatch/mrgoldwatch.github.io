@@ -1,7 +1,11 @@
   ._vzTHL {
+    width: auto !important;
     max-width: 300px !important;
     height: 250px !important;
   }
   ._3xnQP {
     height: 250px !important;
+    /* max-width: 300px !important; */
+    /* width: auto !important; */
+
   }

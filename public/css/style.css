@@ -754,9 +754,10 @@ header .social ul li {
 /* Contact Section */
 
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 100px 0 20px 0;
 	background: linear-gradient(to right, #1395a3 0%, #30cfdd91 100%);
-	color: rgba(255, 255, 255, .75);
+	/* color: rgba(255, 255, 255, .75); */
+	color: #fff;
 }
 
 #contact .section-title {
@@ -786,14 +787,14 @@ header .social ul li {
 
 #contact h3 {
 	color: #fff;
-	margin-top: 80px;
+	/* margin-top: 80px; */
 	margin-bottom: 25px;
 	padding-bottom: 20px;
 	font-weight: 400;
 }
 
 #contact form {
-	padding-top: 20px;
+	/* padding-top: 20px; */
 }
 
 #contact .text-danger {
@@ -900,6 +901,65 @@ label {
 #contact .social i.fa:hover {
 	color: #30cfdd;
 	background: #fff;
+}
+
+/* the color of the rule under contact title */
+.contactus {
+	color: #FFFFFF !important;
+}
+
+.hrText2 {
+	background: unset !important;
+	color: #3C4858;
+	text-transform: uppercase;
+	/* margin-top: -40px; */
+	font-family: 'Raleway', "Roboto Slab", "Times New Roman", serif;
+	font-weight: 700;
+	font-size: 2.5em;
+	line-height: 1.2;
+	min-height: 32px;
+	width: 80%;
+	line-height: 1em;
+	position: relative;
+	outline: 0;
+	border: 0;
+	color: white;
+	text-align: center;
+	height: 1.5em;
+	margin: -20px auto;
+	/* opacity: .5; */
+}
+
+.hrText2:before {
+	content: '';
+	/* // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar */
+	background: linear-gradient(to right, transparent, #FFFFFF, transparent);
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 1px;
+}
+
+.hrText2:after {
+	content: attr(data-content);
+	position: relative;
+	display: inline-block;
+	color: #333;
+	padding: 0 .5em;
+	/* // this is really the only tricky part, you need to specify the background color of the container element... */
+	line-height: 1.5em;
+	/* color: #3C4858; */
+	background-color: #FFFFFF;
+}
+
+.pt-2 {
+	padding-top: 20px;
+}
+
+.contact-social {
+	width: 80%;
 }
 
 /* Footer Section*/

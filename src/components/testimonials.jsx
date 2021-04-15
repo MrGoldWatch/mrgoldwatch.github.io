@@ -5,7 +5,7 @@ export class testimonials extends Component {
     return (
       <div id="testimonials">
         <div className="container">
-          <div className="section-title text-center">
+          <div className="section-title text-center community">
             <h2>Words from Our Community</h2>
             <hr className="text-center hrText aboutus" data-content=""></hr>
           </div>

@@ -6,7 +6,7 @@ class Redbubble extends Component {
     return (
       <div className="redbubble-div" id="redbubble">
         <div className="container">
-          <div className="section-title text-center">
+          <div className="section-title text-center community">
             <h2>Check Out Our Shop!</h2>
             <hr className="text-center hrText aboutus" data-content=""></hr>
           </div>
