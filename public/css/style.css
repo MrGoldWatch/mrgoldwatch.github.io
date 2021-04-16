@@ -84,6 +84,9 @@ hr {
 }
 
 /* Navigation */
+.menue2 {
+	padding-top: 125px !important;
+}
 
 #menu {
 	padding: 15px 15px 0 15px;
@@ -170,6 +173,9 @@ hr {
 	transition: width 0.2s !important;
 }
 
+.small-nav {
+	z-index: 500;
+}
 .navbar-toggle {
 	border-radius: 0;
 	margin-top: 2px !important;
@@ -876,9 +882,9 @@ label {
 }
 
 #contact .social {
-	border-top: 1px solid rgba(255, 255, 255, 0.15);
-	padding-top: 50px;
-	margin-top: 50px;
+	/* border-top: 1px solid rgba(255, 255, 255, 0.15); */
+	padding-top: 40px;
+	/* margin-top: 50px; */
 	text-align: center;
 }
 
@@ -1147,6 +1153,18 @@ label {
 		width: 56px;
 		margin-top: -10px;
 	}
+
+	#contact .social i.fa {
+		color: #30cfdd;
+		background: #fff;
+	}
+	#contact .social i.fa {
+		font-size: 20px;
+		padding: 8px 0;
+		width: 40px;
+		height: 40px;
+	}
+
 	header .social i.fa {
 		color: #30cfdd;
 		background: #fff;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Modal from "react-awesome-modal";
+// import Modal from "react-awesome-modal";
 
-import InstagramFeed from 'react-ig-feed';
+import InstagramFeed from '../npm/react-ig-feed';
 import '../styles/index.css';
 // import 'react-ig-feed/dist/index.css';
 

@@ -48,9 +48,9 @@ export class features extends Component {
               {/*<i className={d.icon}></i>*/}
               <img src={pickup} alt="pickup" className="features-logos"></img>
               <h3>Pickup</h3>
-              <p>Public Meet-Up Play for All Skill Levels.</p>
-              <p>M-W-F 5:30pm-7:30pm</p>
-              <p>DM <a href="https://www.instagram.com/sbogfutsal/">@sbogfutsal</a> to reserve spots</p>
+              <p>M-W-F 5:30-7:30pm dm <a href="https://www.instagram.com/sbogfutsal/">@sbogfutsal</a> to reserve spots</p>
+              
+
             </div>
             <div className="col-xs-6 col-md-3 features-get-involved-div">
               {" "}
@@ -61,7 +61,7 @@ export class features extends Component {
                 className="features-logos"
               ></img>
               <h3>Training</h3>
-              <p>Private and Group Training for All Ages and Skill Levels.</p>
+              <p>Private and Group Training for All.</p>
               {" "}
               <span
               className="meet-the-team"
@@ -131,22 +131,24 @@ export class features extends Component {
               alt="Project Title"
               onClick={() => this.closeModal()}
             >{" "}
-              <InstagramEmbed
-                clientAccessToken="474689437062723|vgP73otYiByC0XUHx3eBT-KDkIQ"
+              {this.state.visible} ?
+                <InstagramEmbed
+                  clientAccessToken="474689437062723|vgP73otYiByC0XUHx3eBT-KDkIQ"
 
-                url={this.state.source}
+                  url={this.state.source}
 
 
-                // maxWidth={320}
-                hideCaption={true}
-              // containerTagName='div'
-              // protocol=''
-              // injectScript
-              // onLoading={() => { }}
-              // onSuccess={() => { }}
-              // onAfterRender={() => { }}
-              // onFailure={() => { }}
-              />
+                  // maxWidth={320}
+                  hideCaption={true}
+                // containerTagName='div'
+                // protocol=''
+                // injectScript
+                // onLoading={() => { }}
+                // onSuccess={() => { }}
+                // onAfterRender={() => { }}
+                // onFailure={() => { }}
+                />
+              : <div></div>
             </span>
           </div>
         </Modal>
