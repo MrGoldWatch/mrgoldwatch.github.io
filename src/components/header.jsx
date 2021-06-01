@@ -77,28 +77,24 @@ export class Header extends Component {
                     </div>
                   </div>
                   <Row>
-                  
-                  <div className="col-sm-4 col-sm-offset-2">
-                  <a
-                    href="#about"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Learn More
-                  </a>{" "}
-                  </div>
-                  
-                  
-                  
-                  <div className="col-sm-4 pich-btn">
-                  <a
-                    href="/pitch"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    SBOG Pitch
-                  </a>{" "}
-                  </div>
-                  
-                  
+
+                    <div className="col-sm-4 col-sm-offset-2">
+                      <a
+                        href="#about"
+                        className="btn btn-custom btn-lg page-scroll"
+                      >
+                        Learn More
+                      </a>{" "}
+                    </div>
+
+                    <div className="col-sm-4 pich-btn">
+                      <a
+                        href="#contact"
+                        className="btn btn-custom btn-lg page-scroll"
+                      >
+                        Contact Us
+                      </a>{" "}
+                    </div>
                   </Row>
                 </div>
               </div>

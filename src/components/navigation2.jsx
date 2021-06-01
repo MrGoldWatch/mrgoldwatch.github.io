@@ -72,8 +72,8 @@ export class Navigation extends Component {
             <button
               type="button"
               className="navbar-toggle collapsed small-nav"
-              data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1"
+              // data-toggle="collapse"
+              // data-target="#bs-example-navbar-collapse-1"
               onClick={this.toggleCollapse}
             >
               <span className="sr-only"></span>{" "}
@@ -133,11 +133,11 @@ export class Navigation extends Component {
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a href="/pitch" className="page-scroll" onClick={this.toggleCollapse}>
                   Pitch
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

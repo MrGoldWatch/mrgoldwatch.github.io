@@ -348,6 +348,11 @@ header .social ul li {
 
 /* Features Section */
 
+.negative-margin {
+	margin-bottom: 2px;
+	/* padding-bottom: -25px; */
+}
+
 #features {
 	padding: 100px 0;
 	background: #f6f6f6;

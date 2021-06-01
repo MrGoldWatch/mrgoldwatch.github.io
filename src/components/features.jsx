@@ -61,8 +61,7 @@ export class features extends Component {
                 className="features-logos"
               ></img>
               <h3>Training</h3>
-              <p>Private and Group Training for All.</p>
-              {" "}
+              <p className="negative-margin">Private and Group Training for All.</p>
               <span
               className="meet-the-team"
                 type="button"
@@ -73,6 +72,7 @@ export class features extends Component {
                   this.openModal('https://www.instagram.com/p/CKPuPAAp2en/?utm_source=ig_web_copy_link')
                 }
               >
+                
                 <a href="#">Learn More</a>
 
               </span>{" "}
@@ -83,9 +83,7 @@ export class features extends Component {
               {/*<i className={d.icon}></i>*/}
               <img src={club} alt="club" className="features-logos"></img>
               <h3>Futsal Club</h3>
-              <p>American Futsal League Pro Squad.</p>
-
-              {" "}
+              <p className="negative-margin">American Futsal League Pro Squad.</p>
               <span
               className="meet-the-team"
                 type="button"
@@ -104,8 +102,11 @@ export class features extends Component {
             </div>
             <div className="col-xs-6 col-md-3 features-get-involved-div">
               {" "}
+              <img src={volunteer} alt="volunteer" className="features-logos"></img>
               {/*<i className={d.icon}></i>*/}
-              <a href="/pitch">
+              <h3>Get Involved</h3>
+              <p>Contact <a href="https://www.instagram.com/sbogfutsal/">@sbogfutsal</a> to get involved with SBOG Futsal.</p>
+              {/* <a href="/pitch">
                 <img
                   src={volunteer}
                   alt="volunteer"
@@ -113,7 +114,7 @@ export class features extends Component {
                 ></img>
                 <h3>Get Involved</h3>
                 <p>Get Involved with SBOG Futsal.</p>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
