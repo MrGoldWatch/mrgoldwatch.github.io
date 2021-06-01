@@ -1,11 +1,28 @@
-  ._vzTHL {
-    width: auto !important;
-    max-width: 300px !important;
-    height: 250px !important;
-  }
-  ._3xnQP {
-    height: 250px !important;
-    /* max-width: 300px !important; */
-    /* width: auto !important; */
+._vzTHL {
+  width: auto !important;
+  max-width: 275px !important;
+  height: 250px !important;
+}
 
+._3xnQP {
+  height: 250px !important;
+  /* max-width: 300px !important; */
+  /* width: auto !important; */
+
+}
+
+._2R-kh {
+  text-align: center;
+}
+
+.ig-feed {
+  padding-left: 55px !important;
+}
+
+@media (max-width: 480px) {
+
+  .ig-feed {
+    padding-left: 45px !important;
   }
+
+}

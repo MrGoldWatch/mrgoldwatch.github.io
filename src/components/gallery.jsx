@@ -37,7 +37,7 @@ export class Gallery extends Component {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container ig-feed">
           <InstagramFeed 
           // token="IGQVJWLTM1RXozRXAyUmVMZA1VBQWdxRjRaeDk5ZAWloaEF5ZAHRnZAHYwX1JQbUo3cFp2Ym85YnNBYnpScVFwR3FHSzZANaFBZAa3M0R0UxS2QtSEcxdlNlT0xnZADRDUjJKT25LRkkyekZAyUDFjYlZAlZAFAxcAZDZD" 
           token="IGQVJWNEhjRDhTWmREaDBPVWtzbDI2MkNsSllJT3E5M1FET21BWjE5UGVEdUI4d25JR2phM3k4bHF3T0ZArSHRJaGp4c25mQllhOWFieWhpbjBHbDZALSHluQlp5bG54cGpycWMzdUVxWlg3WVQ2S2txTgZDZD"
