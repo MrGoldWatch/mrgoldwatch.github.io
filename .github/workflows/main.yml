@@ -29,10 +29,10 @@ jobs:
     steps:
       # Clone the repo
       - name: Clone repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
       # Cache node modules
       - name: Cache node modules
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: node_modules
           key: yarn-deps-${{ hashFiles('yarn.lock') }}
@@ -43,7 +43,7 @@ jobs:
         run: npm i && npm run build #yarn install && yarn build
       # Upload the artifact for other stages to use
       - name: Share artifact in github workflow
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: build
           path: build
