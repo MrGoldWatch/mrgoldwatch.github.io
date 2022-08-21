@@ -3,3 +3,4 @@
 /iac/.terraform/
 /iac/terraform.*
 /.env
+/build
