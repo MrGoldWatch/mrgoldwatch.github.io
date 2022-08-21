@@ -43,7 +43,7 @@ jobs:
         run: npm i && npm run build #yarn install && yarn build
       # Upload the artifact for other stages to use
       - name: Share artifact in github workflow
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v1
         with:
           name: build
           path: build
