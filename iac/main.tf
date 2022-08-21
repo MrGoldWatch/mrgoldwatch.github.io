@@ -10,7 +10,7 @@ provider "aws" {
 }
 
 locals {
-  domain = "hkarts.net"
+  domain = "sbog.futbol"
   s3_origin_id = "sbog"
 }
 
@@ -58,7 +58,7 @@ resource "aws_s3_bucket_public_access_block" "react-aws-terraform-github-actions
   ignore_public_acls = true
 }
 
-resource "aws_route53_zone" "prod" {
+/* resource "aws_route53_zone" "prod" {
   name = var.domain_name
 }
 
@@ -72,9 +72,9 @@ resource "namecheap_domain_records" "prod" {
     aws_route53_zone.prod.name_servers[2],
     aws_route53_zone.prod.name_servers[3],
   ]
-}
+} */
 
-resource "aws_acm_certificate" "sbog_cert" {
+/* resource "aws_acm_certificate" "sbog_cert" {
   domain_name       = var.domain_name
   validation_method = "DNS"
 }
@@ -99,6 +99,15 @@ resource "aws_route53_record" "prod_backend_certificate_validation" {
 resource "aws_acm_certificate_validation" "prod_backend" {
   certificate_arn         = aws_acm_certificate.sbog_cert.arn
   validation_record_fqdns = [for record in aws_route53_record.prod_backend_certificate_validation : record.fqdn]
+} */
+
+resource "aws_acm_certificate" "sbog_cert" {
+  provider = aws.use1
+  domain_name = local.domain
+  validation_method = "DNS"
+  lifecycle {
+    create_before_destroy = true
+  }
 }
 
 
