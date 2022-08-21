@@ -4,7 +4,7 @@ import Header from './components/header';
 import Features from './components/features';
 import About from './components/about';
 // import Services from './components/services';
-import Gallery from './components/gallery';
+// import Gallery from './components/gallery';
 import Testimonials from './components/testimonials';
 // import Team from './components/Team';
 import Contact from './components/contact';
@@ -32,7 +32,7 @@ export class App extends Component {
         <About data={this.state.landingPageData.About} />
         <Features data={this.state.landingPageData.Features} />
         {/* <Services data={this.state.landingPageData.Services} /> */}
-        <Gallery />
+        {/*<Gallery /> */}
         <Testimonials data={this.state.landingPageData.Testimonials} />
         <Redbubble/> 
         {/*<Team data={this.state.landingPageData.Team} /> */}
