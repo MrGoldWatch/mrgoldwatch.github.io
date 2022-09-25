@@ -1,6 +1,7 @@
-/node_modules
-/temp
-/iac/.terraform/
-/iac/terraform.*
-/.env
-/build
+temp
+iac/.terraform/
+iac/terraform.*
+.env
+build
+.idea
+node_modules
