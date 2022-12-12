@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row } from 'react-bootstrap';
 
-export class Header extends Component {
-  render() {
+// export class Header extends Component {
+//   render() {
+function Header (props) {
     return (
       <header id="header">
         <div className="intro">
@@ -11,11 +12,11 @@ export class Header extends Component {
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
+                    {props.data ? props.data.title : "Loading"}
                     <span></span>
                   </h1>
                   <p>
-                    {this.props.data ? this.props.data.paragraph : "Loading"}
+                    {props.data ? props.data.paragraph : "Loading"}
                   </p>
                   <div className="col-md-12 intro-social">
                     <div className="social">
@@ -23,7 +24,7 @@ export class Header extends Component {
                         <li>
                           <a
                             href={
-                              this.props.data ? this.props.data.instagram : "/"
+                              props.data ? props.data.instagram : "/"
                             }
                             target="_blank"
                             rel="noopener noreferrer"
@@ -34,7 +35,7 @@ export class Header extends Component {
                         <li>
                           <a
                             href={
-                              this.props.data ? this.props.data.facebook : "/"
+                              props.data ? props.data.facebook : "/"
                             }
                             target="_blank"
                             rel="noopener noreferrer"
@@ -45,7 +46,7 @@ export class Header extends Component {
                         <li>
                           <a
                             href={
-                              this.props.data ? this.props.data.twitter : "/"
+                              props.data ? props.data.twitter : "/"
                             }
                             target="_blank"
                             rel="noopener noreferrer"
@@ -65,7 +66,7 @@ export class Header extends Component {
                         <li>
                           <a
                             href={
-                              this.props.data ? this.props.data.twitch : "/"
+                              props.data ? props.data.twitch : "/"
                             }
                             target="_blank"
                             rel="noopener noreferrer"
@@ -103,7 +104,7 @@ export class Header extends Component {
         </div>
       </header>
     );
-  }
+  // }
 }
 
 export default Header;

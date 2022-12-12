@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import amf from "../icons/AMF.png";
+// import amf from "../icons/AMF.png";
+
 
 
 export class about extends Component {
@@ -38,9 +39,11 @@ export class about extends Component {
                 <p className="first-p">
                   {this.props.data ? this.props.data.paragraph : "loading..."}
                 </p>
+                <br></br>
                 <p>
                   {this.props.data ? this.props.data.paragraph1 : "loading..."}
                 </p>
+                <br></br>
                 <p className="thanky text-c">
                   {this.props.data ? this.props.data.paragraph12 : "loading..."}
                 </p>
@@ -48,20 +51,14 @@ export class about extends Component {
                 <p className="p-thick">
                   {this.props.data ? this.props.data.paragraph2 : "loading..."}
                 </p>
-                <img src={amf} alt="amf" className="amf text-center"></img>
-                <p className="p-thick">
-                  {this.props.data ? this.props.data.paragraph3 : "loading..."}
+                {/*<img src={amf} alt="amf" className="amf text-center"></img>*/}
+                <p className="p-thick" id="follow">
+                  Follow us on Instragram <a className="about-follow" href={this.props.data ? this.props.data.instagram : "/"}>@sbogfutsal</a> for aditional info.
                 </p>
               </div>
             </div>
-
-
           </div>
         </div>
-
-
-
-
 
         {/* Thanks to our community */}
         <div className="container">

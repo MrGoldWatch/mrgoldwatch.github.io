@@ -4,7 +4,7 @@ import training from "../icons/training.png";
 import volunteer from "../icons/volunteer.png";
 import club from "../icons/club.png";
 import Modal from "react-awesome-modal";
-import InstagramEmbed from "react-instagram-embed";
+// import InstagramEmbed from "react-instagram-embed";
 
 // import football from '../icons/football.png';
 // import classes from "*.module.css";
@@ -48,8 +48,7 @@ export class features extends Component {
               {/*<i className={d.icon}></i>*/}
               <img src={pickup} alt="pickup" className="features-logos"></img>
               <h3>Pickup</h3>
-              <p>M-W-F 5:30-7:30pm dm <a href="https://www.instagram.com/sbogfutsal/">@sbogfutsal</a> to reserve spots</p>
-              
+              <p>dm <a href="https://www.instagram.com/sbogfutsal/">@sbogfutsal</a> to reserve spots</p>
 
             </div>
             <div className="col-xs-6 col-md-3 features-get-involved-div">
@@ -62,20 +61,20 @@ export class features extends Component {
               ></img>
               <h3>Training</h3>
               <p className="negative-margin">Private and Group Training for All.</p>
-              <span
-              className="meet-the-team"
-                type="button"
-                title="Project Title"
-                data-lightbox-gallery="gallery1"
-                value="Open"
-                onClick={() =>
-                  this.openModal('https://www.instagram.com/p/CKPuPAAp2en/?utm_source=ig_web_copy_link')
-                }
-              >
-                
-                <a href="#">Learn More</a>
+{/*               <span */}
+{/*               className="meet-the-team" */}
+{/*                 type="button" */}
+{/*                 title="Project Title" */}
+{/*                 data-lightbox-gallery="gallery1" */}
+{/*                 value="Open" */}
+{/*                 onClick={() => */}
+{/*                   this.openModal('https://www.instagram.com/p/CKPuPAAp2en/?utm_source=ig_web_copy_link') */}
+{/*                 } */}
+{/*               > */}
+{/*                  */}
+{/*                 <a href="https://www.instagram.com/sbogfutsal/">Learn More</a> */}
 
-              </span>{" "}
+{/*               </span>{" "} */}
             </div>
 
             <div className="col-xs-6 col-md-3 features-get-involved-div">
@@ -84,7 +83,7 @@ export class features extends Component {
               <img src={club} alt="club" className="features-logos"></img>
               <h3>Futsal Club</h3>
               <p className="negative-margin">American Futsal League Pro Squad.</p>
-              <span
+              {/*<span
               className="meet-the-team"
                 type="button"
                 title="Project Title"
@@ -94,9 +93,9 @@ export class features extends Component {
                   this.openModal('https://www.instagram.com/p/CNkoXxxJcjd/?utm_source=ig_web_copy_link')
                 }
               >
-                <a href="#">Meet the team</a>
+                <a href="https://www.instagram.com/sbogfutsal/">Meet the team</a>
 
-              </span>{" "}
+              </span>{" "}*/}
 
 
             </div>
@@ -133,22 +132,23 @@ export class features extends Component {
               onClick={() => this.closeModal()}
             >{" "}
               {this.state.visible} ?
-                <InstagramEmbed
-                  clientAccessToken="474689437062723|vgP73otYiByC0XUHx3eBT-KDkIQ"
+                {/*<InstagramEmbed*/}
+                {/*  clientAccessToken="474689437062723|vgP73otYiByC0XUHx3eBT-KDkIQ"*/}
 
-                  url={this.state.source}
+                {/*  url={this.state.source}*/}
 
 
-                  // maxWidth={320}
-                  hideCaption={true}
-                // containerTagName='div'
-                // protocol=''
-                // injectScript
-                // onLoading={() => { }}
-                // onSuccess={() => { }}
-                // onAfterRender={() => { }}
-                // onFailure={() => { }}
-                />
+                {/*  // maxWidth={320}*/}
+                {/*  hideCaption={true}*/}
+                {/*// containerTagName='div'*/}
+                {/*// protocol=''*/}
+                {/*// injectScript*/}
+                {/*// onLoading={() => { }}*/}
+                {/*// onSuccess={() => { }}*/}
+                {/*// onAfterRender={() => { }}*/}
+                {/*// onFailure={() => { }}*/}
+                {/*/>*/}
+              <div></div>
               : <div></div>
             </span>
           </div>
