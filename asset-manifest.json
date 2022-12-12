@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.acd63db5.js",
+    "main.js": "/static/js/main.543ed87f.js",
     "static/media/Logo.png": "/static/media/Logo.a4308b0c7f6640243e48.png",
     "static/media/volunteer.png": "/static/media/volunteer.ff7db4633a834a10f623.png",
     "static/media/pickup.png": "/static/media/pickup.5a26f764438b25e819ea.png",
     "static/media/club.png": "/static/media/club.d9eb2ace30ab49ad52ae.png",
     "static/media/training.png": "/static/media/training.180c67534b6e4b6a0fab.png",
     "index.html": "/index.html",
-    "main.acd63db5.js.map": "/static/js/main.acd63db5.js.map"
+    "main.543ed87f.js.map": "/static/js/main.543ed87f.js.map"
   },
   "entrypoints": [
-    "static/js/main.acd63db5.js"
+    "static/js/main.543ed87f.js"
   ]
 }
